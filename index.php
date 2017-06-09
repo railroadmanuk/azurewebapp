@@ -1,5 +1,5 @@
 <?php
-
-echo "Hello there, IP of server is {gethostbyaddr()}!";
+$myhost = gethostbyaddr()
+echo "Hello there, IP of server is {$myhost}!";
 
 ?>

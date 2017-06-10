@@ -13,5 +13,8 @@
       $myhost = gethostname();
       echo "<p>Hello there, hostname of server is {$myhost}!</p>";
     ?>
+    <div>
+      <img src="./media/images/php.svg" align="middle">
+    </div>
   </body>
 </html>

@@ -11,7 +11,7 @@
   <body>
     <?php
       $myhost = gethostname();
-      echo "Hello there, hostname of server is {$myhost}!";
+      echo "<p>Hello there, hostname of server is {$myhost}!</p>";
     ?>
   </body>
 </html>

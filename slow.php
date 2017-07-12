@@ -18,10 +18,13 @@
     </style>
   </head>
   <body>
+    <h1>Azure Demo Web App - Slow Loading Page</h1>
     <?php
       $randnum = rand(1,10);
       sleep($randnum);
       echo "<p>This page is slooooow, waited {$randnum} seconds for this to load!</p>";
     ?>
+    <h3>Links</h3>
+    <a href="./index.php">Home</a>
   </body>
 </html>

@@ -26,7 +26,7 @@
       try {
         genError();
       } catch (Exception $e) {
-        echo "<p>Threw an exception...!</p>";
+        die("<p>Threw an exception...!</p>");
       }
     ?>
     <h3>Links</h3>

@@ -30,6 +30,7 @@
     <div>
       <h3>Links</h3>
       <a href="./slow.php">Slow Loading Page</a>
+      <a href="./exception.php">Exception Page</a>
     </div>
   </body>
 </html>

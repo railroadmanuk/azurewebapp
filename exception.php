@@ -20,8 +20,15 @@
   <body>
     <h1>Azure Demo Web App - PHP Exception Page</h1>
     <?php
-      throw new Exception('Division by zero.');
-      echo "<p>Threw an exception...!</p>";
+      function genError() {
+        throw new Exception('Threw an error');
+      }
+      try {
+        genError();
+      } catch (Exception $e) {
+        echo "<p>Threw an exception...!</p>";
+      }
+      echo "<p>No errors here</p>"
     ?>
     <h3>Links</h3>
     <a href="./index.php">Home</a>

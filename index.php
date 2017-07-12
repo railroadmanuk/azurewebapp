@@ -19,12 +19,17 @@
     </style>
   </head>
   <body>
+    <h1>Azure Demo Web App</h1>
     <?php
       $myhost = gethostname();
       echo "<p>Hello there, hostname of server is {$myhost}!</p>";
     ?>
     <div>
       <img src="./media/images/php.svg" align="middle" width="20%">
+    </div>
+    <div>
+      <h3>Links</h3>
+      <a href="./slow.php">Slow Loading Page</a>
     </div>
   </body>
 </html>

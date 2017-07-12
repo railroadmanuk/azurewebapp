@@ -28,7 +28,6 @@
       } catch (Exception $e) {
         echo "<p>Threw an exception...!</p>";
       }
-      echo "<p>No errors here</p>"
     ?>
     <h3>Links</h3>
     <a href="./index.php">Home</a>
